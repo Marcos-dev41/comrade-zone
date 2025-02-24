@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <link rel="stylesheet" href="cafe.css" />
+  </head>
+  <body class="login-body" id="login-body">
+    <form class="login">
+      <div class="close" id="close">
+        <a href="index.html"
+          ><img src="close-circle-svgrepo-com.svg" alt=""
+        /></a>
+      </div>
+      <h2>login</h2>
+      <fieldset>
+        <legend for="email">E-mail</legend>
+        <input
+          type="email"
+          name="email"
+          placeholder="johndoe@gmail.com"
+          required
+         />
+        <img src="email-svgrepo-com.svg" alt="" />
+      </fieldset>
+      <fieldset>
+        <legend for="pass">Password</legend>
+        <input type="password" name="pass" id="password" required />
+        <img src="padlock-svgrepo-com (1).svg" alt="" id="pass-icon" />
+      </fieldset>
+      <button type="submit">login</button>
+      <div class="remember">
+        <div><input type="checkbox" />Remember me</div>
+        <a href="">forgot password</a>
+      </div>
+    </form>
+  </body>
+  <script src="login.js"></script>
+</html>
